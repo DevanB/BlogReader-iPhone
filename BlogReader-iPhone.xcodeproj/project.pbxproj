@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056738E31899A67E00B755D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056738E21899A67E00B755D3 /* Foundation.framework */; };
+		056738E51899A67E00B755D3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056738E41899A67E00B755D3 /* CoreGraphics.framework */; };
+		056738E71899A67E00B755D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056738E61899A67E00B755D3 /* UIKit.framework */; };
+		056738ED1899A67E00B755D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056738EB1899A67E00B755D3 /* InfoPlist.strings */; };
+		056738EF1899A67E00B755D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 056738EE1899A67E00B755D3 /* main.m */; };
+		056738F31899A67E00B755D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 056738F21899A67E00B755D3 /* AppDelegate.m */; };
+		056738F51899A67E00B755D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 056738F41899A67E00B755D3 /* Images.xcassets */; };
+		056738FC1899A67E00B755D3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056738FB1899A67E00B755D3 /* XCTest.framework */; };
+		056738FD1899A67E00B755D3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056738E21899A67E00B755D3 /* Foundation.framework */; };
+		056738FE1899A67E00B755D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056738E61899A67E00B755D3 /* UIKit.framework */; };
+		056739061899A67E00B755D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056739041899A67E00B755D3 /* InfoPlist.strings */; };
+		056739081899A67E00B755D3 /* BlogReader_iPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056739071899A67E00B755D3 /* BlogReader_iPhoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		056738FF1899A67E00B755D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056738D71899A67E00B755D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056738DE1899A67E00B755D3;
+			remoteInfo = "BlogReader-iPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056738DF1899A67E00B755D3 /* BlogReader-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlogReader-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		056738E21899A67E00B755D3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		056738E41899A67E00B755D3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		056738E61899A67E00B755D3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		056738EA1899A67E00B755D3 /* BlogReader-iPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReader-iPhone-Info.plist"; sourceTree = "<group>"; };
+		056738EC1899A67E00B755D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		056738EE1899A67E00B755D3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		056738F01899A67E00B755D3 /* BlogReader-iPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlogReader-iPhone-Prefix.pch"; sourceTree = "<group>"; };
+		056738F11899A67E00B755D3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		056738F21899A67E00B755D3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		056738F41899A67E00B755D3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		056738FA1899A67E00B755D3 /* BlogReader-iPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BlogReader-iPhoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		056738FB1899A67E00B755D3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		056739031899A67E00B755D3 /* BlogReader-iPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReader-iPhoneTests-Info.plist"; sourceTree = "<group>"; };
+		056739051899A67E00B755D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		056739071899A67E00B755D3 /* BlogReader_iPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReader_iPhoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056738DC1899A67E00B755D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056738E51899A67E00B755D3 /* CoreGraphics.framework in Frameworks */,
+				056738E71899A67E00B755D3 /* UIKit.framework in Frameworks */,
+				056738E31899A67E00B755D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056738F71899A67E00B755D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056738FC1899A67E00B755D3 /* XCTest.framework in Frameworks */,
+				056738FE1899A67E00B755D3 /* UIKit.framework in Frameworks */,
+				056738FD1899A67E00B755D3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		056738D61899A67E00B755D3 = {
+			isa = PBXGroup;
+			children = (
+				056738E81899A67E00B755D3 /* BlogReader-iPhone */,
+				056739011899A67E00B755D3 /* BlogReader-iPhoneTests */,
+				056738E11899A67E00B755D3 /* Frameworks */,
+				056738E01899A67E00B755D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056738E01899A67E00B755D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056738DF1899A67E00B755D3 /* BlogReader-iPhone.app */,
+				056738FA1899A67E00B755D3 /* BlogReader-iPhoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056738E11899A67E00B755D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				056738E21899A67E00B755D3 /* Foundation.framework */,
+				056738E41899A67E00B755D3 /* CoreGraphics.framework */,
+				056738E61899A67E00B755D3 /* UIKit.framework */,
+				056738FB1899A67E00B755D3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		056738E81899A67E00B755D3 /* BlogReader-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				056738F11899A67E00B755D3 /* AppDelegate.h */,
+				056738F21899A67E00B755D3 /* AppDelegate.m */,
+				056738F41899A67E00B755D3 /* Images.xcassets */,
+				056738E91899A67E00B755D3 /* Supporting Files */,
+			);
+			path = "BlogReader-iPhone";
+			sourceTree = "<group>";
+		};
+		056738E91899A67E00B755D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				056738EA1899A67E00B755D3 /* BlogReader-iPhone-Info.plist */,
+				056738EB1899A67E00B755D3 /* InfoPlist.strings */,
+				056738EE1899A67E00B755D3 /* main.m */,
+				056738F01899A67E00B755D3 /* BlogReader-iPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		056739011899A67E00B755D3 /* BlogReader-iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				056739071899A67E00B755D3 /* BlogReader_iPhoneTests.m */,
+				056739021899A67E00B755D3 /* Supporting Files */,
+			);
+			path = "BlogReader-iPhoneTests";
+			sourceTree = "<group>";
+		};
+		056739021899A67E00B755D3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				056739031899A67E00B755D3 /* BlogReader-iPhoneTests-Info.plist */,
+				056739041899A67E00B755D3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056738DE1899A67E00B755D3 /* BlogReader-iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0567390B1899A67E00B755D3 /* Build configuration list for PBXNativeTarget "BlogReader-iPhone" */;
+			buildPhases = (
+				056738DB1899A67E00B755D3 /* Sources */,
+				056738DC1899A67E00B755D3 /* Frameworks */,
+				056738DD1899A67E00B755D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlogReader-iPhone";
+			productName = "BlogReader-iPhone";
+			productReference = 056738DF1899A67E00B755D3 /* BlogReader-iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		056738F91899A67E00B755D3 /* BlogReader-iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0567390E1899A67E00B755D3 /* Build configuration list for PBXNativeTarget "BlogReader-iPhoneTests" */;
+			buildPhases = (
+				056738F61899A67E00B755D3 /* Sources */,
+				056738F71899A67E00B755D3 /* Frameworks */,
+				056738F81899A67E00B755D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				056739001899A67E00B755D3 /* PBXTargetDependency */,
+			);
+			name = "BlogReader-iPhoneTests";
+			productName = "BlogReader-iPhoneTests";
+			productReference = 056738FA1899A67E00B755D3 /* BlogReader-iPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056738D71899A67E00B755D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Devan Beitel";
+				TargetAttributes = {
+					056738F91899A67E00B755D3 = {
+						TestTargetID = 056738DE1899A67E00B755D3;
+					};
+				};
+			};
+			buildConfigurationList = 056738DA1899A67E00B755D3 /* Build configuration list for PBXProject "BlogReader-iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 056738D61899A67E00B755D3;
+			productRefGroup = 056738E01899A67E00B755D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056738DE1899A67E00B755D3 /* BlogReader-iPhone */,
+				056738F91899A67E00B755D3 /* BlogReader-iPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056738DD1899A67E00B755D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056738ED1899A67E00B755D3 /* InfoPlist.strings in Resources */,
+				056738F51899A67E00B755D3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056738F81899A67E00B755D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056739061899A67E00B755D3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056738DB1899A67E00B755D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056738F31899A67E00B755D3 /* AppDelegate.m in Sources */,
+				056738EF1899A67E00B755D3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		056738F61899A67E00B755D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056739081899A67E00B755D3 /* BlogReader_iPhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		056739001899A67E00B755D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056738DE1899A67E00B755D3 /* BlogReader-iPhone */;
+			targetProxy = 056738FF1899A67E00B755D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		056738EB1899A67E00B755D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056738EC1899A67E00B755D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		056739041899A67E00B755D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056739051899A67E00B755D3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		056739091899A67E00B755D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0567390A1899A67E00B755D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0567390C1899A67E00B755D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader-iPhone/BlogReader-iPhone-Prefix.pch";
+				INFOPLIST_FILE = "BlogReader-iPhone/BlogReader-iPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0567390D1899A67E00B755D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader-iPhone/BlogReader-iPhone-Prefix.pch";
+				INFOPLIST_FILE = "BlogReader-iPhone/BlogReader-iPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0567390F1899A67E00B755D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlogReader-iPhone.app/BlogReader-iPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader-iPhone/BlogReader-iPhone-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlogReader-iPhoneTests/BlogReader-iPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		056739101899A67E00B755D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlogReader-iPhone.app/BlogReader-iPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlogReader-iPhone/BlogReader-iPhone-Prefix.pch";
+				INFOPLIST_FILE = "BlogReader-iPhoneTests/BlogReader-iPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056738DA1899A67E00B755D3 /* Build configuration list for PBXProject "BlogReader-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056739091899A67E00B755D3 /* Debug */,
+				0567390A1899A67E00B755D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0567390B1899A67E00B755D3 /* Build configuration list for PBXNativeTarget "BlogReader-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0567390C1899A67E00B755D3 /* Debug */,
+				0567390D1899A67E00B755D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0567390E1899A67E00B755D3 /* Build configuration list for PBXNativeTarget "BlogReader-iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0567390F1899A67E00B755D3 /* Debug */,
+				056739101899A67E00B755D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 056738D71899A67E00B755D3 /* Project object */;
+}
