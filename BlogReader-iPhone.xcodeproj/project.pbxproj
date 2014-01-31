@@ -23,6 +23,7 @@
 		05673917189A0CA400B755D3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05673916189A0CA400B755D3 /* TableViewController.m */; };
 		0567391A189AC24B00B755D3 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 05673919189AC24B00B755D3 /* BlogPost.m */; };
 		0567391C189AE7F800B755D3 /* treehouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 0567391B189AE7F800B755D3 /* treehouse.png */; };
+		CC08DB5D189BFCF20059874B /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC08DB5C189BFCF20059874B /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		05673918189AC24B00B755D3 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
 		05673919189AC24B00B755D3 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
 		0567391B189AE7F800B755D3 /* treehouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treehouse.png; sourceTree = "<group>"; };
+		CC08DB5B189BFCF20059874B /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		CC08DB5C189BFCF20059874B /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +129,8 @@
 				056739131899A6DC00B755D3 /* MainStoryboard.storyboard */,
 				05673918189AC24B00B755D3 /* BlogPost.h */,
 				05673919189AC24B00B755D3 /* BlogPost.m */,
+				CC08DB5B189BFCF20059874B /* WebViewController.h */,
+				CC08DB5C189BFCF20059874B /* WebViewController.m */,
 			);
 			path = "BlogReader-iPhone";
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				056738F31899A67E00B755D3 /* AppDelegate.m in Sources */,
+				CC08DB5D189BFCF20059874B /* WebViewController.m in Sources */,
 				05673917189A0CA400B755D3 /* TableViewController.m in Sources */,
 				056738EF1899A67E00B755D3 /* main.m in Sources */,
 				0567391A189AC24B00B755D3 /* BlogPost.m in Sources */,
@@ -461,6 +467,7 @@
 				0567390D1899A67E00B755D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0567390E1899A67E00B755D3 /* Build configuration list for PBXNativeTarget "BlogReader-iPhoneTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				056739101899A67E00B755D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
