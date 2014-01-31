@@ -19,6 +19,10 @@
 		056738FE1899A67E00B755D3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056738E61899A67E00B755D3 /* UIKit.framework */; };
 		056739061899A67E00B755D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056739041899A67E00B755D3 /* InfoPlist.strings */; };
 		056739081899A67E00B755D3 /* BlogReader_iPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 056739071899A67E00B755D3 /* BlogReader_iPhoneTests.m */; };
+		056739141899A6DC00B755D3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056739131899A6DC00B755D3 /* MainStoryboard.storyboard */; };
+		05673917189A0CA400B755D3 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05673916189A0CA400B755D3 /* TableViewController.m */; };
+		0567391A189AC24B00B755D3 /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 05673919189AC24B00B755D3 /* BlogPost.m */; };
+		0567391C189AE7F800B755D3 /* treehouse.png in Resources */ = {isa = PBXBuildFile; fileRef = 0567391B189AE7F800B755D3 /* treehouse.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		056739031899A67E00B755D3 /* BlogReader-iPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlogReader-iPhoneTests-Info.plist"; sourceTree = "<group>"; };
 		056739051899A67E00B755D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		056739071899A67E00B755D3 /* BlogReader_iPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReader_iPhoneTests.m; sourceTree = "<group>"; };
+		056739131899A6DC00B755D3 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		05673915189A0CA400B755D3 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		05673916189A0CA400B755D3 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		05673918189AC24B00B755D3 /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		05673919189AC24B00B755D3 /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
+		0567391B189AE7F800B755D3 /* treehouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = treehouse.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +119,13 @@
 			children = (
 				056738F11899A67E00B755D3 /* AppDelegate.h */,
 				056738F21899A67E00B755D3 /* AppDelegate.m */,
+				05673915189A0CA400B755D3 /* TableViewController.h */,
+				05673916189A0CA400B755D3 /* TableViewController.m */,
 				056738F41899A67E00B755D3 /* Images.xcassets */,
 				056738E91899A67E00B755D3 /* Supporting Files */,
+				056739131899A6DC00B755D3 /* MainStoryboard.storyboard */,
+				05673918189AC24B00B755D3 /* BlogPost.h */,
+				05673919189AC24B00B755D3 /* BlogPost.m */,
 			);
 			path = "BlogReader-iPhone";
 			sourceTree = "<group>";
@@ -118,6 +133,7 @@
 		056738E91899A67E00B755D3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0567391B189AE7F800B755D3 /* treehouse.png */,
 				056738EA1899A67E00B755D3 /* BlogReader-iPhone-Info.plist */,
 				056738EB1899A67E00B755D3 /* InfoPlist.strings */,
 				056738EE1899A67E00B755D3 /* main.m */,
@@ -219,6 +235,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0567391C189AE7F800B755D3 /* treehouse.png in Resources */,
+				056739141899A6DC00B755D3 /* MainStoryboard.storyboard in Resources */,
 				056738ED1899A67E00B755D3 /* InfoPlist.strings in Resources */,
 				056738F51899A67E00B755D3 /* Images.xcassets in Resources */,
 			);
@@ -240,7 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				056738F31899A67E00B755D3 /* AppDelegate.m in Sources */,
+				05673917189A0CA400B755D3 /* TableViewController.m in Sources */,
 				056738EF1899A67E00B755D3 /* main.m in Sources */,
+				0567391A189AC24B00B755D3 /* BlogPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
